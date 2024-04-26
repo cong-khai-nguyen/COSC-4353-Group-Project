@@ -1,6 +1,7 @@
 import express from 'express'
-import profile, {
+import {
   loadProfile,
+  profile,
 } from '../controllers/profileController'
 import verifyTokens from '../middlewares/verifyToken'
 const profileRouter = express.Router()
